@@ -16,6 +16,7 @@ let numberC: Double = -7
 
 var firstStep: Double
 var secondStep: Double
+var thirdStep: Double
 
 
 //Discriminant search
@@ -56,3 +57,41 @@ else {
 
 
 
+
+
+
+
+
+
+// TACK 2
+
+let shortSide1: Double = 40.45
+let shortSide2: Double = 15.3434
+
+let longSide: Double
+let perimeter: Double
+let square: Double
+
+
+// Looking for long side
+
+firstStep = pow(shortSide1, 2)
+secondStep = pow(shortSide2, 2)
+longSide = sqrt(firstStep + secondStep)
+print("Гипотенуза треугольника равна: " + String(round(longSide)))
+
+
+// Looking for perimeter
+
+perimeter = shortSide1 + shortSide2 + longSide
+print("Периметр треугольника равен: " + String(round(perimeter)))
+
+
+//Looking for quare
+
+let halfPerimeter: Double = perimeter / 2
+firstStep = halfPerimeter - shortSide1
+secondStep = halfPerimeter - shortSide2
+thirdStep = halfPerimeter - longSide
+square = sqrt(halfPerimeter * firstStep * secondStep * thirdStep)
+print("Площадь треугольника равна: " + String(round(square)))
