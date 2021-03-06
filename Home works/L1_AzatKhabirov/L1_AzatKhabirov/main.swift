@@ -14,12 +14,15 @@ let numberA: Double = 2
 let nubmerB: Double = 5
 let numberC: Double = -7
 
+var firstStep: Double
+var secondStep: Double
+
 
 //Discriminant search
 
 let discriminant: Double
-var firstStep: Double = pow(nubmerB, 2)
-var secondStep: Double = 4 * numberA * numberC
+firstStep = pow(nubmerB, 2)
+secondStep = 4 * numberA * numberC
 discriminant = firstStep - secondStep
 
 
@@ -42,13 +45,13 @@ else if discriminant == 0 {
 else {
     firstStep = (-(nubmerB) - (sqrt(discriminant)))
     secondStep = 2 * numberA
-    answer = firstStep / secondStep
-    print("Корень X1: " + String(answer))
+    firstValue = firstStep / secondStep
+    print("Корень X1: " + String(firstValue))
     
     firstStep = (-(nubmerB) + (sqrt(discriminant)))
     secondStep = 2 * numberA
-    answer = firstStep / secondStep
-    print("Корень X2: " + String(answer))}
+    secondValue = firstStep / secondStep
+    print("Корень X2: " + String(secondValue))}
 
 
 
