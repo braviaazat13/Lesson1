@@ -95,3 +95,33 @@ secondStep = halfPerimeter - shortSide2
 thirdStep = halfPerimeter - longSide
 square = sqrt(halfPerimeter * firstStep * secondStep * thirdStep)
 print("Площадь треугольника равна: " + String(round(square)))
+
+
+
+
+
+
+
+
+
+
+
+// TACK 3
+
+let summ: Double = 100000   //сумма вложения
+let percent: Double = 9     //годовой процент
+var years: Double = 5       //количество лет
+
+var result: Double = 0
+
+
+repeat {
+    if result == 0 {
+        result = ((summ/100) * percent)
+    } else {
+        result = result + ((summ/100) * percent)
+    }
+    years = years-1
+} while years > 0
+
+print("Сумма вклада через 5 лeт составит: " + String(summ + result))
