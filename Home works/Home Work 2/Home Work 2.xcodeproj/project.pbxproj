@@ -41,7 +41,7 @@
 		AA6264E225FA447E00A297A7 = {
 			isa = PBXGroup;
 			children = (
-				AA6264ED25FA447E00A297A7 /* Home Work 3 */,
+				AA6264ED25FA447E00A297A7 /* Home Work 2 */,
 				AA6264EC25FA447E00A297A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA6264ED25FA447E00A297A7 /* Home Work 3 */ = {
+		AA6264ED25FA447E00A297A7 /* Home Work 2 */ = {
 			isa = PBXGroup;
 			children = (
 				AA6264EE25FA447E00A297A7 /* main.swift */,
 			);
-			path = "Home Work 3";
+			path = "Home Work 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA6264E625FA447E00A297A7 /* Build configuration list for PBXProject "Home Work 3" */;
+			buildConfigurationList = AA6264E625FA447E00A297A7 /* Build configuration list for PBXProject "Home Work 2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,7 +262,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA6264E625FA447E00A297A7 /* Build configuration list for PBXProject "Home Work 3" */ = {
+		AA6264E625FA447E00A297A7 /* Build configuration list for PBXProject "Home Work 2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA6264F025FA447E00A297A7 /* Debug */,
